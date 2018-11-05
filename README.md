@@ -1,1 +1,1 @@
-# sample-proxy-apps
+# Brightcove Learning Services: Sample Proxy Apps
