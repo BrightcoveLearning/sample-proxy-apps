@@ -3,7 +3,7 @@
  * proxy for Brightcove RESTful APIs
  * gets an access token, makes the request, and returns the response
  * Accessing:
- *         (note you should *always* access the proxy via HTTPS)
+ *     (note you should **always** access the proxy via HTTPS)
  *     Method: POST
  *     request body (accessed via php://input) is a JSON object with the following properties
  *
@@ -19,7 +19,7 @@
  *    "requestType": "PATCH",
  *    "client_id": "0072bebf-0616-442c-84de-7215bb176061",
  *    "client_secret": "7M0vMete8vP_Dmb9oIRdUN1S5lrqTvgtVvdfsasd",
- *    "requestBody": "{"description":"Updated video description"}"
+ *    "requestBody": "{\"description\":\"Updated video description\"}"
  * }
  *
  * if client_id and client_secret are not included in the request, default values will be used
