@@ -13,7 +13,16 @@
  * {string} [client_id] - OAuth2 client id with sufficient permissions for the request
  * {string} [client_secret] - OAuth2 client secret with sufficient permissions for the request
  *
- * if client_id, client_secret, or account_id are not included in the request, default values will be used
+ * Example:
+ * {
+ *    "url": "https://cms.api.brightcove.com/v1/accounts/57838016001/video",
+ *    "requestType": "PATCH",
+ *    "client_id": "0072bebf-0616-442c-84de-7215bb176061",
+ *    "client_secret": "7M0vMete8vP_Dmb9oIRdUN1S5lrqTvgtVvdfsasd",
+ *    "requestBody": "{"description":"Updated video description"}"
+ * }
+ *
+ * if client_id and client_secret are not included in the request, default values will be used
  *
  * @returns {string} $response - JSON response received from the API
  */
