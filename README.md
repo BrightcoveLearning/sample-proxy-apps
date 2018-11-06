@@ -16,4 +16,4 @@ Overtime, we will add more sample proxies in other languages. If there is a lang
 
 1. Clone or download the repository
 2. Copy the file bcls-proxy-for-distribution.php to a web server that supports PHP
-3.
+3. If you want to embed your client id and secret in the proxy rather than passing them with requests (we recommend that you do this), insert your client id and secret on lines 43 and 44.
