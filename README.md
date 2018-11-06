@@ -11,3 +11,5 @@ For a more detailed look at using a proxy in this way see [Using the REST APIs](
 This repository currently contains one sample proxy, written in PHP, and modeled closely on the one we use for sample apps.
 
 Overtime, we will add more sample proxies in other languages. If there is a language you would particularly like to see, please <a href="mailto:docs@brightcove.com">let us know</a> and we will prioritize accordingly.
+
+## Using the sample proxy
