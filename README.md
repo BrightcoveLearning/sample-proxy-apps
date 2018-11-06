@@ -13,3 +13,7 @@ This repository currently contains one sample proxy, written in PHP, and modeled
 Overtime, we will add more sample proxies in other languages. If there is a language you would particularly like to see, please <a href="mailto:docs@brightcove.com">let us know</a> and we will prioritize accordingly.
 
 ## Using the sample proxy
+
+1. Clone or download the repository
+2. Copy the file bcls-proxy-for-distribution.php to a web server that supports PHP
+3.
