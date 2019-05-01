@@ -51,12 +51,15 @@ $requestData = json_decode(file_get_contents('php://input'));
 // and if so, use them instead of defaults
 if (isset($requestData->client_id)) {
     $client_id = $requestData->client_id;
+} else {
+    $client_id = $default_client_id;
 }
 
 if (isset($requestData->client_secret)) {
     $client_secret = $requestData->client_secret;
+} else {
+    $client_secret = $default_client_secret;
 }
-
 $auth_string = "{$client_id}:{$client_secret}";
 
 // make the request to get an access token
